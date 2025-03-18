@@ -1,0 +1,109 @@
+.container{
+    margin: 100px auto;
+    height: 612px;
+    width: 375px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+header{
+    height: 67px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    margin-bottom: 0px;
+}
+
+.section1{
+    width: 375px;
+    height: 48px;
+    margin: 0;
+}
+
+.user{
+    display: flex; 
+    align-items: center;
+    margin: 10px 17px 11px 17px;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .location{
+    margin:0px;
+}
+
+.post{
+    width: 375px;
+    height: 375px;
+}
+
+.profileimg, .profile{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.profileimg{
+    margin: 16px 16px 17px 0px;
+}
+
+.logoimg{
+    width: 127px;
+    height: 33.02px;
+    margin: 16px 0px 17.98px 15px;
+}
+
+.profile{
+    margin-right: 7px;
+}
+
+.name{
+    font-family: "Source Sans 3";
+    font-weight: bold;
+    font-size: 13px;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+
+.location{
+    font-family: "Source Sans 3";
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+
+.btns{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: start;
+}
+
+.btns{
+    width: 104.34px;
+    height: 22.13px;
+    margin: 21px 0px 11.87px 10px;
+}
+
+.btn{
+    height: 22.13px;
+    width: 23.3px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+.likes{
+    width: 343px;
+    height: 16px;
+    font-family: "Source Sans 3";
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0;
+    
+}

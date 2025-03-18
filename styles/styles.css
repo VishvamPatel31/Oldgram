@@ -1,7 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .container{
-    margin: 100px auto;
     height: 612px;
-    width: 375px;
+    width: 390px;
     overflow-y: scroll;
     border: 1px solid black;
 }
